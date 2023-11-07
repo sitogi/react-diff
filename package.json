@@ -42,7 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.0",
     "eslint-plugin-storybook": "^0.6.12",
-    "html-webpack-plugin": "^5.5.1",
+    "html-webpack-plugin": "^5.5.3",
     "jsdom": "^21.1.0",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
