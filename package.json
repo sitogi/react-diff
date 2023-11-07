@@ -12,10 +12,6 @@
     "prepare": "npx simple-git-hooks || :",
     "preinstall": "npx -y only-allow npm"
   },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@storybook/addon-actions": "^7.0.18",
@@ -73,5 +69,9 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
