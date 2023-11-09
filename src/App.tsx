@@ -1,11 +1,15 @@
 import { JSX } from 'react';
 
-import styles from '~/App.module.css';
+import { DiffViewer } from '~/components/DiffViewer';
 
-export const App = (): JSX.Element => {
+export function App(): JSX.Element {
   return (
-    <div className={styles.container}>
-      <p className={styles.text}>Hello Vite React boilerplate!</p>
+    <div
+      style={{ display: 'grid', placeContent: 'center', width: '100vw', height: '100vh', backgroundColor: '#363636' }}
+    >
+      <div style={{ width: 1000, height: 600 }}>
+        <DiffViewer />
+      </div>
     </div>
   );
-};
+}
