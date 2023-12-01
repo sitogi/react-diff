@@ -20,7 +20,7 @@
     "@storybook/addon-links": "^7.0.18",
     "@storybook/addon-mdx-gfm": "^7.0.18",
     "@storybook/react": "^7.0.18",
-    "@storybook/react-vite": "^7.0.18",
+    "@storybook/react-vite": "^7.6.2",
     "@storybook/testing-library": "^0.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
